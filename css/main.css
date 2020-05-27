@@ -1,0 +1,153 @@
+/* BOX HACK */
+*,
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+	width: 80%;
+	max-width: 64rem;
+	margin: 0 auto;
+	background: #DDD;
+	background-image: url('https://png.pngtree.com/thumb_back/fw800/back_pic/03/72/84/4657b98ace28ed4.jpg');
+	background-size: cover;
+  	background-position: center;
+  	background-attachment: fixed;
+}
+h1 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 800;
+	font-size: 80px;
+	text-align: center;
+	color: black;
+	background-color: azure;
+	border-radius: 50px;
+	padding: 0px;	
+}
+
+.container-padding50 {
+	padding-top: 3.125rem;
+}
+.js-container {
+	border: 1px solid black;
+	background-color: antiquewhite ;
+	border-radius: 1%;
+	padding: auto;
+	padding: 10px 0px 10px 30px;
+	margin-top: 2%;
+}
+
+.container-textinput {
+	width: 100%;
+	max-width: 55rem;
+	display: inline-block;
+	padding: 1.25rem;
+	font-size: 1rem;
+	font-family: Helvetica, sans-serif;
+	border-radius: 20px;
+}
+
+.container-button {
+	width: 100%;
+	max-width: 8.6rem;
+	display: inline-block;
+	padding: 1.125rem;
+	background-color: green;
+	color: white;
+	font-size: 1rem;
+	font-family: Helvetica, sans-serif;
+
+	border: 0.0625rem solid green;
+	border-radius: 0.3125rem;
+}
+
+.js-container img {
+	width: 30%;
+	padding: 10px;
+	padding-right:0px ;
+	margin-right:3%;
+	max-height: 50%;
+	border: none;
+}
+
+.footer {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding: 30px;
+	font-weight: 900;
+	background-color: darkcyan;
+	color: darkred ;
+	border-radius: 50px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+}
+.footer a {
+	text-decoration: none;
+	color: greenyellow;
+	font-weight: 900;
+}
+
+
+@media only screen and (max-width:37.5rem) {
+	
+	body {
+		width: 100%;
+		padding: 0px;
+		margin: 0 auto;
+		background-image: inherit;
+		background-color: chocolate;
+		
+	}
+	.container-textinput {
+		width: 85%;
+		border-radius: 0px;
+		
+		
+	}
+	.container-padding50 {
+		padding-top: 20px;
+	}
+	.container-button {
+		width: 14%;
+		padding: 1.25rem;
+		font-size: 1.125rem;
+		
+	}
+	h1 {
+		padding: none;
+		margin: 0 auto;
+		background-color: inherit;
+		color:peachpuff;
+	}
+
+	.js-container {
+		margin: 0 auto;
+		padding: none;
+		border: inherit;
+		border-radius: inherit;
+		background-color: cornsilk ;
+
+	}
+	.js-container img {
+		width: 30%;
+		padding: 10px;
+		margin: 0 auto;
+		margin-right: 3%;
+	}
+	#header {
+		width: 100%;
+		padding-bottom: 10px;
+		margin: 0 auto;
+	}
+
+	.footer {
+		padding:auto;
+		inline-size: auto;
+		margin:0 auto;
+		border-radius: 0px;
+	}
+}
